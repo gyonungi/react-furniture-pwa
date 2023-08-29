@@ -1,0 +1,41 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 300px;
+    gap: 10px;
+}
+.photo-card {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.price-card {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.price-card p {
+    margin-left: 10px;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+button {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
